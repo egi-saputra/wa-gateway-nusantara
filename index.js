@@ -65,8 +65,8 @@ async function startWA() {
         connectTimeoutMs: 60_000,
         keepAliveIntervalMs: 10_000,
         retryRequestDelayMs: 250,
-        syncFullHistory: false, // ← tambahkan ini
-        shouldSyncHistoryMessage: () => false, // ← dan ini
+        syncFullHistory: false,
+        // shouldSyncHistoryMessage: () => false,
     });
 
     sock.ev.on('creds.update', saveCreds);
