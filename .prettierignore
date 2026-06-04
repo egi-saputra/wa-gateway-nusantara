@@ -1,0 +1,26 @@
+# Node modules / dependencies
+node_modules
+
+# README
+README.md
+
+# Build / compiled files
+dist
+build
+*.min.js
+*.min.css
+
+# PHP cache / temporary files
+*.log
+*.cache
+*.tmp
+
+# Git
+.git
+.gitignore
+
+# IDE / editor files
+.vscode
+*.sublime-project
+*.sublime-workspace
+*.idea
